@@ -1,0 +1,904 @@
+{
+  "id": "65625702-14e6-447b-bb67-f7341f682b3a",
+  "version": "2.0",
+  "name": "Test_Castaua",
+  "url": "https://kasta.ua",
+  "tests": [{
+    "id": "9a567148-7c99-41f3-b515-4edb1310df56",
+    "name": "Test_Our partners",
+    "commands": [{
+      "id": "3009f60e-478a-4631-9080-3a5887473b6f",
+      "comment": "",
+      "command": "open",
+      "target": "/uk/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "20e4b64a-b5e4-409f-8342-c0b751ae1dda",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1552x840",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "1b0f380d-347a-4062-a7b8-3207f5b56061",
+      "comment": "",
+      "command": "click",
+      "target": "xpath=//div[3]/div/div/a[2]/div",
+      "targets": [
+        ["css=.\\--to-bottom", "css:finder"],
+        ["xpath=//div[@id='root']/div[3]/div/div[3]/div/div/a[2]/div", "xpath:idRelative"],
+        ["xpath=//div[3]/div/div/a[2]/div", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "ed9837ba-ce26-480c-86d3-c2b3498c68f0",
+      "comment": "",
+      "command": "click",
+      "target": "xpath=//a[contains(text(),'Укрпошта')]",
+      "targets": [
+        ["linkText=Укрпошта", "linkText"],
+        ["css=.footer_block--last .footer_list_item:nth-child(1) > .footer_item_link", "css:finder"],
+        ["xpath=//a[contains(text(),'Укрпошта')]", "xpath:link"],
+        ["xpath=//footer[@id='footer']/div/div[3]/div[2]/div/ul/li/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, 'https://www.ukrposhta.ua/')]", "xpath:href"],
+        ["xpath=//div[3]/div[2]/div/ul/li/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Укрпошта')]", "xpath:innerText"]
+      ],
+      "value": "",
+      "opensWindow": true,
+      "windowHandleName": "win6984",
+      "windowTimeout": 2000
+    }, {
+      "id": "a0e109b0-720c-4dec-b8e6-07edaf1bca4d",
+      "comment": "",
+      "command": "storeWindowHandle",
+      "target": "root",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "f435f43f-bfcf-41d8-b438-27e405b35850",
+      "comment": "",
+      "command": "selectWindow",
+      "target": "handle=${win6984}",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "28352164-cc87-4d75-bef1-861e3a904778",
+      "comment": "",
+      "command": "close",
+      "target": "",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "b017fbaa-be5f-486d-9ead-541d3d5ce1b2",
+      "comment": "",
+      "command": "selectWindow",
+      "target": "handle=${root}",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "75219def-c467-4425-9875-869a26f723dd",
+      "comment": "",
+      "command": "click",
+      "target": "xpath=//a[contains(text(),'Нова пошта')]",
+      "targets": [
+        ["linkText=Нова пошта", "linkText"],
+        ["css=.footer_block--last .footer_list_item:nth-child(2) > .footer_item_link", "css:finder"],
+        ["xpath=//a[contains(text(),'Нова пошта')]", "xpath:link"],
+        ["xpath=//footer[@id='footer']/div/div[3]/div[2]/div/ul/li[2]/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, 'https://novaposhta.ua/ru')]", "xpath:href"],
+        ["xpath=//div[3]/div[2]/div/ul/li[2]/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Нова пошта')]", "xpath:innerText"]
+      ],
+      "value": "",
+      "opensWindow": true,
+      "windowHandleName": "win2471",
+      "windowTimeout": 2000
+    }, {
+      "id": "9ddcefc1-7910-4b6e-9792-d92fb3e67f8c",
+      "comment": "",
+      "command": "selectWindow",
+      "target": "handle=${win2471}",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "89517240-e626-42b7-a8ba-bc25fc737017",
+      "comment": "",
+      "command": "close",
+      "target": "",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "5012cabc-f426-45e8-9d9e-0cbeb4a4b3d0",
+      "comment": "",
+      "command": "selectWindow",
+      "target": "handle=${root}",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "29f347bc-ada9-4f45-916e-cfbaa35cd833",
+      "comment": "",
+      "command": "click",
+      "target": "xpath=//a[contains(text(),'Pampik')]",
+      "targets": [
+        ["linkText=Pampik", "linkText"],
+        ["css=.footer_list:nth-child(2) > .footer_list_item:nth-child(3) > .footer_item_link", "css:finder"],
+        ["xpath=//a[contains(text(),'Pampik')]", "xpath:link"],
+        ["xpath=//footer[@id='footer']/div/div[3]/div[2]/div/ul/li[3]/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, 'https://pampik.com/')]", "xpath:href"],
+        ["xpath=//div[3]/div[2]/div/ul/li[3]/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Pampik')]", "xpath:innerText"]
+      ],
+      "value": "",
+      "opensWindow": true,
+      "windowHandleName": "win5515",
+      "windowTimeout": 2000
+    }, {
+      "id": "e11e3de2-ecbc-4e95-9d9c-53c67d2c75a9",
+      "comment": "",
+      "command": "selectWindow",
+      "target": "handle=${win5515}",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "2c7f13d6-f4aa-4c83-8e8c-0c316a5c21d6",
+      "comment": "",
+      "command": "close",
+      "target": "",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "64a35ba0-8aff-4686-a35b-795228be7d7b",
+      "comment": "",
+      "command": "selectWindow",
+      "target": "handle=${root}",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "e5592392-e5a5-462d-b544-94499fd958ec",
+      "comment": "",
+      "command": "click",
+      "target": "xpath=//div[3]/div/div/a/div",
+      "targets": [
+        ["css=.\\--to-top", "css:finder"],
+        ["xpath=//div[@id='root']/div[3]/div/div[3]/div/div/a/div", "xpath:idRelative"],
+        ["xpath=//div[3]/div/div/a/div", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "b957f70b-a438-4793-b5e6-26aa7105c0ef",
+      "comment": "",
+      "command": "click",
+      "target": "xpath=//img",
+      "targets": [
+        ["css=.header-logo__img", "css:finder"],
+        ["xpath=//img[@alt='Iнтернет-магазин Kasta']", "xpath:img"],
+        ["xpath=//div[@id='up']/div[2]/div/div/div/a/img", "xpath:idRelative"],
+        ["xpath=//img", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "e4c6cd24-f9b1-4d20-a1d8-60a9219cb672",
+      "comment": "",
+      "command": "close",
+      "target": "",
+      "targets": [],
+      "value": ""
+    }]
+  }, {
+    "id": "a3d74824-28bb-4534-883d-4601aa227662",
+    "name": "Test_Choose a product from the catalog",
+    "commands": [{
+      "id": "46f392f8-e5cc-4c4a-b931-23672454b405",
+      "comment": "",
+      "command": "open",
+      "target": "/uk/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "cffa25a2-a5f6-423c-9889-aeae4ef1055d",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1552x840",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "c24f22ed-7a43-4ee9-ba80-54dc296e67b5",
+      "comment": "",
+      "command": "click",
+      "target": "xpath=//a[contains(text(),'Одяг')]",
+      "targets": [
+        ["linkText=Одяг", "linkText"],
+        ["css=.active > .menu-vertical__link", "css:finder"],
+        ["xpath=//a[contains(text(),'Одяг')]", "xpath:link"],
+        ["xpath=//ul[@id='mk_menu']/li[2]/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, '/uk/market/odezhda/')]", "xpath:href"],
+        ["xpath=//div[2]/div/div/div/div/div/div/ul/li[2]/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Одяг')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "36e80734-7250-4806-8874-18d68eb51a5f",
+      "comment": "",
+      "command": "click",
+      "target": "xpath=(//a[contains(text(),'Жінкам')])[2]",
+      "targets": [
+        ["css=.shrink-0:nth-child(2)", "css:finder"],
+        ["xpath=(//a[contains(text(),'Жінкам')])[2]", "xpath:link"],
+        ["xpath=//div[@id='catalogue']/div[2]/div[3]/div/div/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, '/uk/market/zhenskaya-odezhda/')]", "xpath:href"],
+        ["xpath=//div[2]/div[3]/div/div/a", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "739264b6-5d47-49ff-830c-70f529372063",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Верхній одяг",
+      "targets": [
+        ["linkText=Верхній одяг", "linkText"],
+        ["css=.shrink-0:nth-child(3)", "css:finder"],
+        ["xpath=//a[contains(text(),'Верхній одяг')]", "xpath:link"],
+        ["xpath=//div[@id='catalogue']/div[2]/div[3]/div/div/a[2]", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, '/uk/market/zhenskaya-verhnyaya-odezhda/')]", "xpath:href"],
+        ["xpath=//div[2]/div[3]/div/div/a[2]", "xpath:position"],
+        ["xpath=//a[contains(.,'Верхній одяг')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "e7fa072f-299f-48da-aea1-fb5938ced594",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Пальто",
+      "targets": [
+        ["linkText=Пальто", "linkText"],
+        ["css=.shrink-0:nth-child(5)", "css:finder"],
+        ["xpath=(//a[contains(text(),'Пальто')])[3]", "xpath:link"],
+        ["xpath=//div[@id='catalogue']/div[2]/div[3]/div/div/a[4]", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, '/uk/market/palto-zhenskoe/')]", "xpath:href"],
+        ["xpath=//div[3]/div/div/a[4]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "1c6dedc6-c8f3-475d-b0b5-84db0738d103",
+      "comment": "",
+      "command": "click",
+      "target": "xpath=//div[@id='priceSort']/details/summary/div/ic",
+      "targets": [
+        ["css=.chevron-down-s--nickel", "css:finder"],
+        ["xpath=//div[@id='priceSort']/details/summary/div/ic", "xpath:idRelative"],
+        ["xpath=//ic", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "4b3a7424-9f87-4b04-9a9e-2049eedb465c",
+      "comment": "",
+      "command": "click",
+      "target": "xpath=//a[contains(text(),'За зменшенням ціни')]",
+      "targets": [
+        ["linkText=За зменшенням ціни", "linkText"],
+        ["css=.lh-32:nth-child(3)", "css:finder"],
+        ["xpath=//a[contains(text(),'За зменшенням ціни')]", "xpath:link"],
+        ["xpath=//div[@id='priceSort']/details/div/div/a[3]", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, '/uk/market/palto-zhenskoe~sort_price-desc/')]", "xpath:href"],
+        ["xpath=//details/div/div/a[3]", "xpath:position"],
+        ["xpath=//a[contains(.,'За зменшенням ціни')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "e6f5d41a-b7e8-4a1b-a8aa-de463de66cd7",
+      "comment": "",
+      "command": "click",
+      "target": "css=#\\31 1780285\\3A 626 .lazy",
+      "targets": [
+        ["css=#\\31 1780285\\3A 626 .lazy", "css:finder"],
+        ["xpath=//img[@title='Anpel пальто однобортне однотонний лавандовий кежуал виробництво — Італія']", "xpath:img"],
+        ["xpath=//article[@id='11780285:626']/div/div/form/div/a/span/img", "xpath:idRelative"],
+        ["xpath=//article[3]/div/div/form/div/a/span/img", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "e5993d90-df7a-480c-a5d5-f6de6939429c",
+      "comment": "",
+      "command": "click",
+      "target": "xpath=//img[@alt='Iнтернет-магазин Kasta']",
+      "targets": [
+        ["css=.header-logo__img", "css:finder"],
+        ["xpath=//img[@alt='Iнтернет-магазин Kasta']", "xpath:img"],
+        ["xpath=//div[@id='up']/div[2]/div/div/div/a/img", "xpath:idRelative"],
+        ["xpath=//img", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "5cbc4f03-3008-42c4-8b65-60ee4b0dd3a1",
+      "comment": "",
+      "command": "close",
+      "target": "",
+      "targets": [],
+      "value": ""
+    }]
+  }, {
+    "id": "f9e4574d-3f46-4a70-b4fa-993cf74d3536",
+    "name": "Test_Help_section",
+    "commands": [{
+      "id": "19774851-d4d3-40e1-bb00-99035e791216",
+      "comment": "",
+      "command": "open",
+      "target": "/uk/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "3ad3084e-3ff5-4bae-b6c4-5d0165e42ff9",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1552x840",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "1da8b715-090e-43d9-ba00-e2667a215359",
+      "comment": "",
+      "command": "click",
+      "target": "xpath=//span[contains(.,'Допомога')]",
+      "targets": [
+        ["css=.header__help > .header__label", "css:finder"],
+        ["xpath=//div[@id='up']/div[2]/div/div/div[3]/div[2]/a/span", "xpath:idRelative"],
+        ["xpath=//div[3]/div[2]/a/span", "xpath:position"],
+        ["xpath=//span[contains(.,'Допомога')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "38d7b227-f62f-4aac-8afd-304422103fa1",
+      "comment": "",
+      "command": "click",
+      "target": "xpath=(//a[contains(@href, '/uk/page/support/aboutus/')])[2]",
+      "targets": [
+        ["linkText=Про Kasta", "linkText"],
+        ["css=.mk-flat_sidebar li:nth-child(1) > a", "css:finder"],
+        ["xpath=(//a[contains(text(),'Про Kasta')])[2]", "xpath:link"],
+        ["xpath=//div[@id='root']/div[3]/div/div[3]/div[2]/div/div/div/ul/li/a", "xpath:idRelative"],
+        ["xpath=(//a[contains(@href, '/uk/page/support/aboutus/')])[2]", "xpath:href"],
+        ["xpath=//div[2]/div/div/div/ul/li/a", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "0c7b0360-23e0-448a-8c6a-6c00110b6231",
+      "comment": "",
+      "command": "click",
+      "target": "xpath=//div[@id='mainChatButton']/div",
+      "targets": [
+        ["css=.w-full", "css:finder"],
+        ["xpath=//div[@onclick=\"this.parentElement.setAttribute('data-first-chat-click', 'true')\"]", "xpath:attributes"],
+        ["xpath=//div[@id='mainChatButton']/div", "xpath:idRelative"],
+        ["xpath=//div[3]/div/div[3]/div/div/div/div", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "58615156-4138-44cc-94e5-506b3888a87a",
+      "comment": "",
+      "command": "click",
+      "target": "xpath=//div[@id='popup-container']/div/div/div[2]/a",
+      "targets": [
+        ["css=.popup__close", "css:finder"],
+        ["xpath=//div[@id='popup-container']/div/div/div[2]/a", "xpath:idRelative"],
+        ["xpath=//div[6]/div/div/div[2]/a", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "3d195f8f-87cb-4f15-8851-fe5a79d88d7b",
+      "comment": "",
+      "command": "click",
+      "target": "css=.\\--call",
+      "targets": [
+        ["css=.\\--call", "css:finder"],
+        ["xpath=//div[@id='root']/div[3]/div/div[3]/div/div/div[2]", "xpath:idRelative"],
+        ["xpath=//div[3]/div/div[3]/div/div/div[2]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "8998f8f8-e175-473e-bb2e-d92c0c5d6eb4",
+      "comment": "",
+      "command": "click",
+      "target": "css=.support-widgets-close",
+      "targets": [
+        ["css=.support-widgets-close", "css:finder"],
+        ["xpath=//div[@id='support-widget']/div/div", "xpath:idRelative"],
+        ["xpath=//div[2]/div/div/div", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "5d7ec9c0-bb5e-4106-9f26-3d01472bf0cf",
+      "comment": "",
+      "command": "click",
+      "target": "css=.\\--to-top",
+      "targets": [
+        ["css=.\\--to-top", "css:finder"],
+        ["xpath=//div[@id='root']/div[3]/div/div[3]/div/div/a/div", "xpath:idRelative"],
+        ["xpath=//div[3]/div/div/a/div", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "7a251678-fe8f-4483-a26a-4b2cf1ffe562",
+      "comment": "",
+      "command": "click",
+      "target": "xpath=//div[@id='root']/div[3]/div/div[3]/div/div/a[2]/div",
+      "targets": [
+        ["css=.\\--to-bottom", "css:finder"],
+        ["xpath=//div[@id='root']/div[3]/div/div[3]/div/div/a[2]/div", "xpath:idRelative"],
+        ["xpath=//div[3]/div/div/a[2]/div", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "74df98e3-7548-487a-a6dc-3cd86abcf445",
+      "comment": "",
+      "command": "click",
+      "target": "xpath=//div[@id='root']/div[3]/div/div[3]/div/div/a/div",
+      "targets": [
+        ["css=.\\--to-top", "css:finder"],
+        ["xpath=//div[@id='root']/div[3]/div/div[3]/div/div/a/div", "xpath:idRelative"],
+        ["xpath=//div[3]/div/div/a/div", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "faa01d44-cdfd-48bb-a197-e5e2b839988f",
+      "comment": "",
+      "command": "click",
+      "target": "xpath=(//a[contains(text(),'Бонуси та промокоди')])[2]",
+      "targets": [
+        ["linkText=Бонуси та промокоди", "linkText"],
+        ["css=ul:nth-child(2) > li:nth-child(4) > a", "css:finder"],
+        ["xpath=(//a[contains(text(),'Бонуси та промокоди')])[2]", "xpath:link"],
+        ["xpath=//div[@id='root']/div[3]/div/div[3]/div[2]/div/div/div/ul/li[4]/a", "xpath:idRelative"],
+        ["xpath=(//a[contains(@href, '/uk/page/support/bonuses-and-promocodes/')])[2]", "xpath:href"],
+        ["xpath=//div/div/ul/li[4]/a", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "080262e6-00bc-4637-95e3-7c7dc03dc85d",
+      "comment": "",
+      "command": "click",
+      "target": "xpath=(//a[contains(text(),'Доставка')])[2]",
+      "targets": [
+        ["linkText=Доставка", "linkText"],
+        ["css=ul:nth-child(2) > li:nth-child(7) > a", "css:finder"],
+        ["xpath=(//a[contains(text(),'Доставка')])[2]", "xpath:link"],
+        ["xpath=//div[@id='root']/div[3]/div/div[3]/div[2]/div/div/div/ul/li[7]/a", "xpath:idRelative"],
+        ["xpath=(//a[contains(@href, '/uk/page/support/deliveries/')])[2]", "xpath:href"],
+        ["xpath=//div/div/ul/li[7]/a", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "7fb6d9ce-6d02-4824-838d-42425c09c3f9",
+      "comment": "",
+      "command": "click",
+      "target": "xpath=//img[@alt='Iнтернет-магазин Kasta']",
+      "targets": [
+        ["css=.header-logo__img", "css:finder"],
+        ["xpath=//img[@alt='Iнтернет-магазин Kasta']", "xpath:img"],
+        ["xpath=//div[@id='up']/div[2]/div/div/div/a/img", "xpath:idRelative"],
+        ["xpath=//img", "xpath:position"]
+      ],
+      "value": ""
+    }]
+  }, {
+    "id": "31be0324-1df3-4dea-bb74-689a1d8393d9",
+    "name": "Test_Share_section",
+    "commands": [{
+      "id": "8a54c965-2f12-4ddd-8eae-3f95a99c0029",
+      "comment": "",
+      "command": "open",
+      "target": "/uk/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "61652f57-f3e2-44d7-bbaf-f6cb192ff75f",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1552x840",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "e27d1ef6-7cdd-40b4-b303-de7ecceef50d",
+      "comment": "",
+      "command": "click",
+      "target": "xpath=//div/img",
+      "targets": [
+        ["css=.dsc__home > .dsc__icon", "css:finder"],
+        ["xpath=//img[contains(@src,'https://cdn.kasta.ua/static/img/discovery_main_page.png?v=1fee00')]", "xpath:img"],
+        ["xpath=//div[@id='up']/div[2]/div/div[2]/div/a/div/img", "xpath:idRelative"],
+        ["xpath=//div/img", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "28d5d813-1235-4675-a8ae-b8be73e9a33c",
+      "comment": "",
+      "command": "click",
+      "target": "xpath=(//img[contains(@src,'https://cdn.kasta.ua/static/img/logo.svg?v=84234c')])[5]",
+      "targets": [
+        ["css=.banners__list:nth-child(4) > .banner_item:nth-child(2) .lazy", "css:finder"],
+        ["xpath=(//img[contains(@src,'https://cdn.kasta.ua/static/img/logo.svg?v=84234c')])[5]", "xpath:img"],
+        ["xpath=//div[@id='root']/div[3]/div/div[3]/div[2]/div/div/div/div[3]/article[2]/a/span/img", "xpath:idRelative"],
+        ["xpath=//article[2]/a/span/img", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "4e765bc5-d4cb-41b4-8e8c-ec158478b1c8",
+      "comment": "",
+      "command": "runScript",
+      "target": "window.scrollTo(0,149.60000610351562)",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "bfc6a6ee-18d9-4773-958b-557242b670ff",
+      "comment": "",
+      "command": "runScript",
+      "target": "window.scrollTo(0,436.79998779296875)",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "d7157aa7-f8c9-4486-bb25-9272e3b03e1a",
+      "comment": "",
+      "command": "runScript",
+      "target": "window.scrollTo(0,682.4000244140625)",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "43f13439-d998-4254-a8b9-7f84689c8a43",
+      "comment": "",
+      "command": "click",
+      "target": "css=#OmtpbmRzdWtueWE > .block",
+      "targets": [
+        ["linkText=Сукня(1585)", "linkText"],
+        ["css=#OmtpbmRzdWtueWE > .block", "css:finder"],
+        ["xpath=//label[@id='OmtpbmRzdWtueWE']/a", "xpath:idRelative"],
+        ["xpath=//details[3]/div/div[2]/div/div[2]/label/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Сукня(1585)')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "bb93f97b-3ced-4b73-a277-d069af1ec21a",
+      "comment": "",
+      "command": "click",
+      "target": "xpath=//label[contains(.,'Міжнародна')]",
+      "targets": [
+        ["css=.size-tab:nth-child(5)", "css:finder"],
+        ["xpath=//form[@id='filters']/div[3]/div/div/details[4]/div/div[2]/div[2]/label[2]", "xpath:idRelative"],
+        ["xpath=//div[2]/div[2]/label[2]", "xpath:position"],
+        ["xpath=//label[contains(.,'Міжнародна')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "5f3a6fb0-7c48-469b-82d8-cbe3a605c96f",
+      "comment": "",
+      "command": "click",
+      "target": "xpath=(//a[contains(text(),'S')])[3]",
+      "targets": [
+        ["linkText=S", "linkText"],
+        ["css=#OnNpemU4fFM > .block", "css:finder"],
+        ["xpath=(//a[contains(text(),'S')])[3]", "xpath:link"],
+        ["xpath=//label[@id='OnNpemU4fFM']/a", "xpath:idRelative"],
+        ["xpath=//div[2]/div[2]/label[3]/a", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "44a1a50f-2383-4bc3-bea3-8621c720808e",
+      "comment": "",
+      "command": "runScript",
+      "target": "window.scrollTo(0,1266.4000244140625)",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "7f861e5f-8e8b-4ebf-8c36-7f003b4bc8a3",
+      "comment": "",
+      "command": "click",
+      "target": "xpath=//span[contains(.,'Бірюзовий')]",
+      "targets": [
+        ["css=#OmNvbG9ydHVycXVvaXNlY29sb3I .filter__img-label", "css:finder"],
+        ["xpath=//label[@id='OmNvbG9ydHVycXVvaXNlY29sb3I']/a/div/span", "xpath:idRelative"],
+        ["xpath=//label[12]/a/div/span", "xpath:position"],
+        ["xpath=//span[contains(.,'Бірюзовий')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "375d221b-5a63-4e80-a7c6-e4b0412b8bbd",
+      "comment": "",
+      "command": "runScript",
+      "target": "window.scrollTo(0,1891.199951171875)",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "e2d6560a-ed86-4f39-ba11-14cbd813692b",
+      "comment": "",
+      "command": "runScript",
+      "target": "window.scrollTo(0,1986.4000244140625)",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "02dff148-47fd-43c3-8351-3ff9974ad354",
+      "comment": "",
+      "command": "click",
+      "target": "xpath=//details[8]/summary/div[3]",
+      "targets": [
+        ["css=.filter:nth-child(9) .icon-nav-chevron-up-s--coal", "css:finder"],
+        ["xpath=//form[@id='filters']/div[3]/div/div/details[8]/summary/div[3]", "xpath:idRelative"],
+        ["xpath=//details[8]/summary/div[3]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "52678229-eef0-439b-b6c2-20f69b9f9440",
+      "comment": "",
+      "command": "click",
+      "target": "xpath=//details[8]/summary/div[2]",
+      "targets": [
+        ["css=.filter:nth-child(9) .icon-nav-chevron-down-s--coal", "css:finder"],
+        ["xpath=//form[@id='filters']/div[3]/div/div/details[8]/summary/div[2]", "xpath:idRelative"],
+        ["xpath=//details[8]/summary/div[2]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "de103d86-7e0b-4ce7-b4f8-f0fec4fd3007",
+      "comment": "",
+      "command": "click",
+      "target": "xpath=//details[8]/div/div[2]/div/div[4]",
+      "targets": [
+        ["css=.filter:nth-child(9) > .mt-3 div:nth-child(4)", "css:finder"],
+        ["xpath=//form[@id='filters']/div[3]/div/div/details[8]/div/div[2]/div/div[4]", "xpath:idRelative"],
+        ["xpath=//details[8]/div/div[2]/div/div[4]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "89d6b0cc-32da-4737-936f-1f518f52a813",
+      "comment": "",
+      "command": "click",
+      "target": "xpath=//details[8]/div/div[2]/div/div[4]",
+      "targets": [
+        ["css=.filter:nth-child(9) > .mt-3 div:nth-child(4)", "css:finder"],
+        ["xpath=//form[@id='filters']/div[3]/div/div/details[8]/div/div[2]/div/div[4]", "xpath:idRelative"],
+        ["xpath=//details[8]/div/div[2]/div/div[4]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "2bd1a7fe-7834-409d-a0e0-4590166ac25b",
+      "comment": "",
+      "command": "click",
+      "target": "xpath=//a[contains(.,'Podium(44)')]",
+      "targets": [
+        ["linkText=Podium(44)", "linkText"],
+        ["css=#OmJyYW5kcG9kaXVt > .block", "css:finder"],
+        ["xpath=//label[@id='OmJyYW5kcG9kaXVt']/a", "xpath:idRelative"],
+        ["xpath=//div[38]/label/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Podium(44)')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "031e09ff-c2f4-40c1-a0a3-867de43c3365",
+      "comment": "",
+      "command": "runScript",
+      "target": "window.scrollTo(0,2440)",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "b0565b98-d939-4760-87ef-14e7649d0774",
+      "comment": "",
+      "command": "runScript",
+      "target": "window.scrollTo(0,2560)",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "17bc57b0-3bd2-48d2-aca2-bc76424e0674",
+      "comment": "",
+      "command": "runScript",
+      "target": "window.scrollTo(0,2752)",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "4b2447d0-77c0-4f87-b687-66342be9a3b8",
+      "comment": "",
+      "command": "runScript",
+      "target": "window.scrollTo(0,2993.60009765625)",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "3fd26ffd-7954-4afd-b4c8-c3e606c441a4",
+      "comment": "",
+      "command": "runScript",
+      "target": "window.scrollTo(0,3236)",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "7957a4a1-31fb-4218-a018-0be8bfc75513",
+      "comment": "",
+      "command": "runScript",
+      "target": "window.scrollTo(0,3470.39990234375)",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "f526bcfb-7075-4f81-b664-c0a43dfadb64",
+      "comment": "",
+      "command": "runScript",
+      "target": "window.scrollTo(0,3695.199951171875)",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "1218637e-174e-4fef-ba79-18cfbbf0e369",
+      "comment": "",
+      "command": "runScript",
+      "target": "window.scrollTo(0,3778.39990234375)",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "371985d7-ba53-4014-aa7c-fcd1d282922e",
+      "comment": "",
+      "command": "click",
+      "target": "xpath=//a[contains(.,'Максі(1)')]",
+      "targets": [
+        ["linkText=Максі(1)", "linkText"],
+        ["css=#OmZpeGluZy1sZW5ndGhtYWtzaQ > .block", "css:finder"],
+        ["xpath=//label[@id='OmZpeGluZy1sZW5ndGhtYWtzaQ']/a", "xpath:idRelative"],
+        ["xpath=//details[14]/div/div[2]/div/div/label/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Максі(1)')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "0f8cfc11-50a8-4455-9c20-7ad532b34f62",
+      "comment": "",
+      "command": "click",
+      "target": "xpath=//details[16]/summary/div[2]",
+      "targets": [
+        ["css=.filter:nth-child(17) .icon-nav-chevron-down-s--coal", "css:finder"],
+        ["xpath=//form[@id='filters']/div[3]/div/div/details[16]/summary/div[2]", "xpath:idRelative"],
+        ["xpath=//details[16]/summary/div[2]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "cd770a62-c839-4b70-8184-e7815b1b9856",
+      "comment": "",
+      "command": "click",
+      "target": "xpath=//details[16]/div/div[2]/div/div[8]",
+      "targets": [
+        ["css=.filter:nth-child(17) div:nth-child(8)", "css:finder"],
+        ["xpath=//form[@id='filters']/div[3]/div/div/details[16]/div/div[2]/div/div[8]", "xpath:idRelative"],
+        ["xpath=//details[16]/div/div[2]/div/div[8]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "67dc4f10-9819-4f48-b793-94466bf7937a",
+      "comment": "",
+      "command": "click",
+      "target": "xpath=//details[16]/summary/div[4]",
+      "targets": [
+        ["css=.filter:nth-child(17) .filter__title", "css:finder"],
+        ["xpath=//form[@id='filters']/div[3]/div/div/details[16]/summary/div[4]", "xpath:idRelative"],
+        ["xpath=//details[16]/summary/div[4]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "28bc5434-4636-401c-800f-c4162880bc99",
+      "comment": "",
+      "command": "runScript",
+      "target": "window.scrollTo(0,302.3999938964844)",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "3c2541d0-b64c-4139-be08-01d2262513b0",
+      "comment": "",
+      "command": "click",
+      "target": "xpath=//img",
+      "targets": [
+        ["css=.header-logo__img", "css:finder"],
+        ["xpath=//img[@alt='Iнтернет-магазин Kasta']", "xpath:img"],
+        ["xpath=//div[@id='up']/div[2]/div/div/div/a/img", "xpath:idRelative"],
+        ["xpath=//img", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "9733cb59-9a41-4d34-bea1-cdeb33f165c6",
+      "comment": "",
+      "command": "close",
+      "target": "",
+      "targets": [],
+      "value": ""
+    }]
+  }, {
+    "id": "688b6d80-0793-4f6a-8d35-0c4ae6f9788e",
+    "name": "Test_User agreement",
+    "commands": [{
+      "id": "af97c090-0513-4426-8bc9-4d4a2c27c564",
+      "comment": "",
+      "command": "open",
+      "target": "/uk/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "e64defe9-8818-4e03-82be-974a9acb32a7",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1552x840",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "541b6f86-0de8-425a-a255-b7c29622705a",
+      "comment": "",
+      "command": "click",
+      "target": "css=.\\--to-bottom",
+      "targets": [
+        ["css=.\\--to-bottom", "css:finder"],
+        ["xpath=//div[@id='root']/div[3]/div/div[3]/div/div/a[2]/div", "xpath:idRelative"],
+        ["xpath=//div[3]/div/div/a[2]/div", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "dc0de4f5-47e7-459e-a6b4-9c6186c1d62a",
+      "comment": "",
+      "command": "click",
+      "target": "css=.footer_copyright > a",
+      "targets": [
+        ["css=.footer_copyright > a", "css:finder"],
+        ["xpath=(//a[contains(text(),'Угода користувача')])[3]", "xpath:link"],
+        ["xpath=//footer[@id='footer']/div[2]/a", "xpath:idRelative"],
+        ["xpath=(//a[contains(@href, '/uk/page/support/agreement/')])[3]", "xpath:href"],
+        ["xpath=//footer/div[2]/a", "xpath:position"]
+      ],
+      "value": "",
+      "opensWindow": true,
+      "windowHandleName": "win6396",
+      "windowTimeout": 2000
+    }, {
+      "id": "9e1c85f0-8b9d-437b-8b8f-7210929d6375",
+      "comment": "",
+      "command": "storeWindowHandle",
+      "target": "root",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "e91035c5-30d4-46f9-a067-7a9f2209e97f",
+      "comment": "",
+      "command": "selectWindow",
+      "target": "handle=${win6396}",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "f5b39d97-f107-4ba5-832f-42ca74e879b1",
+      "comment": "",
+      "command": "click",
+      "target": "css=.\\--to-top",
+      "targets": [
+        ["css=.\\--to-top", "css:finder"],
+        ["xpath=//div[@id='root']/div[3]/div/div[3]/div/div/a/div", "xpath:idRelative"],
+        ["xpath=//div[3]/div/div/a/div", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "35a543a6-d133-428d-a54a-4f6736d9ebec",
+      "comment": "",
+      "command": "close",
+      "target": "",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "cbde789d-5a3c-4f2b-a582-6bedae539ecb",
+      "comment": "",
+      "command": "selectWindow",
+      "target": "handle=${root}",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "ae73f20d-28b0-4d3b-8a11-9fdbe028ce34",
+      "comment": "",
+      "command": "close",
+      "target": "",
+      "targets": [],
+      "value": ""
+    }]
+  }],
+  "suites": [{
+    "id": "77b172fa-bdcf-4695-9344-da6c6a89c14f",
+    "name": "Default Suite",
+    "persistSession": false,
+    "parallel": false,
+    "timeout": 300,
+    "tests": ["9a567148-7c99-41f3-b515-4edb1310df56"]
+  }],
+  "urls": ["https://kasta.ua/"],
+  "plugins": []
+}
